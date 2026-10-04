@@ -1,0 +1,9 @@
+package com.navtrack.nav_track.location
+
+object LocationError {
+    const val PERMISSION_DENIED = "PERMISSION_DENIED"
+    const val PERMISSION_PERMANENTLY_DENIED = "PERMISSION_PERMANENTLY_DENIED"
+    const val LOCATION_DISABLED = "LOCATION_DISABLED"
+    const val LOCATION_TIMEOUT = "LOCATION_TIMEOUT"
+    const val LOCATION_UNAVAILABLE = "LOCATION_UNAVAILABLE"
+}
